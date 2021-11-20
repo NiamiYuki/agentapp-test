@@ -1,0 +1,4 @@
+<ng-container *ngIf="carrier">
+  {{ carrier.getName() }}
+  <app-tariff *ngFor="let tariff of carrier.getAvailableTariffs()" [tariff]="tariff"></app-tariff>
+</ng-container>
