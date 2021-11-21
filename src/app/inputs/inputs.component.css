@@ -1,0 +1,21 @@
+.inputs-form > div{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.inputs-form button{
+  width: 100%;
+  background-color: #15a8cb;
+  height: 25px;
+  box-shadow: none;
+  border: none;
+  color:white ;
+}
+
+.inputs-form input{
+  width: 60%;
+  height: 20px;
+  border: 1px solid #bababa;
+}

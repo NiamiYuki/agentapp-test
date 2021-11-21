@@ -1,2 +1,3 @@
-<app-inputs (dataSubmitted)="onDataSubmitted($event)"></app-inputs>
-<app-carrier *ngFor="let carrier of carriers" [carrier]="carrier"></app-carrier>
+<div class = 'root'><app-inputs (dataSubmitted)="onDataSubmitted($event)"></app-inputs>
+<div *ngIf="carriers.length>0" class="results">Предложение:</div>
+<app-carrier *ngFor="let carrier of carriers" [carrier]="carrier"></app-carrier></div>

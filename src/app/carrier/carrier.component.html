@@ -1,4 +1,4 @@
-<ng-container *ngIf="carrier">
-  {{ carrier.getName() }}
+<div *ngIf="carrier" class="carrier">
+  <div class="carrier-name">{{ carrier.getName() }}</div>
   <app-tariff *ngFor="let tariff of carrier.getAvailableTariffs()" [tariff]="tariff"></app-tariff>
-</ng-container>
+</div>

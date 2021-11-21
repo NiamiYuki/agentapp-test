@@ -1,0 +1,12 @@
+.carrier{
+  border: 1px solid #bababa;
+  margin-top: -1px;
+}
+.carrier-name{
+  font-weight: bold;
+  height: 25px;
+  padding: 5px;
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+}
