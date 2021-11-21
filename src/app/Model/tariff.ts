@@ -13,7 +13,8 @@ export interface TariffSettings {
 
 export class Tariff {
 
-  constructor(private settings: TariffSettings, private passengerInfo: PassengerInfo) { }
+  constructor(private settings: TariffSettings, private passengerInfo: PassengerInfo) {
+  }
 
   isAvailable(): boolean {
     return this.passengerInfo.weight <= this.settings.maxBaggageWeight;

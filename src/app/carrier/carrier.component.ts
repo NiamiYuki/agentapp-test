@@ -8,9 +8,10 @@ import {Carrier} from "../Model/carrier";
 })
 export class CarrierComponent implements OnInit {
 
-  @Input() carrier: Carrier|null = null;
+  @Input() carrier: Carrier | null = null;
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
   }

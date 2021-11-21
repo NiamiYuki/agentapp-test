@@ -1,6 +1,6 @@
 import {TariffSettings} from "./tariff";
 
-export const config: {name: string, tariffs: TariffSettings[]}[] = [
+export const config: { name: string, tariffs: TariffSettings[] }[] = [
   {
     name: 'Аэрофлот',
     tariffs: [

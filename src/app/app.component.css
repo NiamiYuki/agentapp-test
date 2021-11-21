@@ -1,12 +1,12 @@
 .root {
-  display: block ;
+  display: block;
   margin: auto;
   max-width: 570px;
   border: 1px solid #bababa;
   padding: 15px;
 }
 
-.results{
+.results {
   height: 25px;
   padding-bottom: 15px;
   padding-top: 20px;

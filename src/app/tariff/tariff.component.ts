@@ -8,8 +8,10 @@ import {Tariff} from "../Model/tariff";
 })
 export class TariffComponent implements OnInit {
 
-  @Input() tariff: Tariff|null = null;
-  constructor() { }
+  @Input() tariff: Tariff | null = null;
+
+  constructor() {
+  }
 
   ngOnInit(): void {
   }

@@ -3,6 +3,7 @@ import {PassengerInfo} from "./passengerInfo";
 
 export class Carrier {
   tariffs: Tariff[] = [];
+
   constructor(private name: string, tariffs: TariffSettings[], passengerInfo: PassengerInfo) {
     this.tariffs = tariffs.map(tariff => new Tariff(tariff, passengerInfo));
   }

@@ -1,7 +1,8 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 import {PassengerInfo} from "./Model/passengerInfo";
 import {config} from "./Model/config"
 import {Carrier} from "./Model/carrier";
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

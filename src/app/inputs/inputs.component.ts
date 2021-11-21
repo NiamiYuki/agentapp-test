@@ -11,7 +11,8 @@ export class InputsComponent implements OnInit {
 
   @Output() dataSubmitted: EventEmitter<PassengerInfo> = new EventEmitter<PassengerInfo>();
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
   }
